@@ -48,3 +48,8 @@ header p {
 .container {
   text-align: center;
 }
+
+.disclaimer {
+  margin-top: 60px;
+  font-size: 10px;
+}
