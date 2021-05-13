@@ -47,9 +47,17 @@ header p {
 
 .container {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .disclaimer {
   margin-top: 60px;
   font-size: 10px;
+}
+
+iframe {
+  margin: 0 0 50px;
 }

@@ -3,6 +3,7 @@ const container = document.querySelector('.container')
 import { hello } from './script2.js';
 console.log(hello())
 
+
 const content = {
   inicio: `<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque officiis aliquid accusamus corrupti iusto nulla
   est ipsa sapiente ipsam, veritatis repellendus error eligendi aut numquam, ipsum nihil provident explicabo
@@ -39,22 +40,33 @@ const content = {
   doloribus at tempora dolorem nulla minima eum hic. Ex illum nulla dolore exercitationem voluptatum quasi
   voluptatem eius. Ipsa, architecto.</p>`,
   enterate: `
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/NBiA_bGYLPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/NBiA_bGYLPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/NBiA_bGYLPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/NBiA_bGYLPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/NBiA_bGYLPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/NBiA_bGYLPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/NBiA_bGYLPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <h1>Enterate</h1>
+  <h3>Titulo</h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/NBiA_bGYLPk" title="YouTube video player" frameborder="0" autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <h3>Titulo</h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/NBiA_bGYLPk" title="YouTube video player" frameborder="0" autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <h3>Titulo</h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/NBiA_bGYLPk" title="YouTube video player" frameborder="0" autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <h3>Titulo</h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/NBiA_bGYLPk" title="YouTube video player" frameborder="0" autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <h3>Titulo</h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/NBiA_bGYLPk" title="YouTube video player" frameborder="0" autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <h3>Titulo</h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/NBiA_bGYLPk" title="YouTube video player" frameborder="0" autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <h3>Titulo</h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/NBiA_bGYLPk" title="YouTube video player" frameborder="0" autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   `,
   glosario: `
+  <h1>Glosario</h1>
+  <h3>Titulo</h3>
   <iframe src="https://drive.google.com/file/d/1lsckUKhPva3ra5NFlA5BsGmQkhrhZ7o0/preview" width="640" height="600"></iframe>
+  <h3>Titulo</h3>
   <iframe src="https://drive.google.com/file/d/1lsckUKhPva3ra5NFlA5BsGmQkhrhZ7o0/preview" width="640" height="600"></iframe>
+  <h3>Titulo</h3>
   <iframe src="https://drive.google.com/file/d/1lsckUKhPva3ra5NFlA5BsGmQkhrhZ7o0/preview" width="640" height="600"></iframe>
-
   `,
-  misterios: `Misterios`,
-  al_lio: `Al Lio`,
+  misterios: `<h1>Misterios</h1>`,
+  al_lio: `<h1>Al Lío</h1>`,
 }
 
 navLink.forEach(link => {
