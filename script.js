@@ -64,6 +64,7 @@ navLink.forEach(link => {
     cleanActiveNavLinks()
     link.classList.add('active')
 
+    document.title = `${link.innerHTML} | El Huerto de Mendel`
     setContent(link.id)
   })
 })
